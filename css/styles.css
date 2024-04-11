@@ -1,0 +1,325 @@
+/*RESET*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  background-color: whitesmoke;
+  /*Navbar*/
+}
+body header .navbar-edit {
+  margin: 0;
+  padding: 0;
+}
+body header .navbar-edit div {
+  background-color: black;
+  margin: 0;
+  padding: 10px;
+}
+body header .navbar-edit div a {
+  color: white;
+  font-family: sans-serif;
+  margin-left: 15px;
+  font-size: 15px;
+}
+body header .navbar-edit div a:active {
+  color: #fe3cc1;
+}
+body header .navbar-edit div a:focus {
+  color: #fe3cc1;
+}
+body header .navbar-edit div a:hover {
+  color: #fe3cc1;
+}
+body header .navbar-edit div button {
+  color: white;
+  background-color: gray;
+}
+body header .navbar-edit div button:focus {
+  border: none;
+  box-shadow: none;
+  background-color: #fe3cc1;
+}
+body header .navbar-edit div button:active {
+  border: none;
+  box-shadow: none;
+}
+body main {
+  background-color: whitesmoke;
+  /*Carousel*/
+  /*Band*/
+  /*Band crew*/
+  /*News*/
+  /*Tour*/
+  /*Contacto*/
+  /*Imagen footer*/
+}
+body main .carousel-edit div img {
+  width: 100%;
+  height: fit-content;
+}
+body main .banda {
+  text-align: center;
+  padding-top: 60px;
+}
+body main .banda .titulo-banda {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  margin-bottom: 0;
+}
+body main .banda .subtitulo-banda {
+  font-size: 14px;
+  font-style: italic;
+  opacity: 0.6;
+  font-family: sans-serif;
+  margin-top: 10px;
+  margin-bottom: 22px;
+}
+body main .banda .descripcion-banda {
+  text-align: justify;
+  margin: 0 20px;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+body main .band-mates {
+  display: grid;
+  grid-template-rows: auto;
+  margin-top: 70px;
+  gap: 40px;
+  margin-bottom: 70px;
+}
+body main .band-mates .band-mate-card .band-mate-card-name p {
+  font-size: 18px;
+}
+body main .band-mates .band-mate-card .band-mate-card-img img {
+  width: 240px;
+  height: 240px;
+}
+body main .band-novedades {
+  background-color: black;
+  padding-top: 62px;
+  padding-bottom: 66px;
+  width: 100%;
+}
+body main .band-novedades .titulo-novedades p {
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+body main .band-novedades .subtitulo-novedades .titulo-noticia {
+  color: white;
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+body main .band-novedades .subtitulo-novedades .contenido-noticia {
+  color: white;
+}
+body main .tour {
+  padding-bottom: 70px;
+}
+body main .tour .texto-tour .titulo-tour {
+  padding-top: 62px;
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 0;
+}
+body main .tour .texto-tour .subtitulo-tour {
+  font-style: 15px;
+  padding-top: 0;
+}
+body main .tour div .card-text {
+  margin: 0;
+}
+body main .tour div img {
+  width: auto;
+}
+body main .tour .second-card {
+  margin-top: 40px;
+}
+body main .contacto {
+  background-color: black;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+}
+body main .contacto .titulo-contacto {
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+body main .contacto div .datos-contacto {
+  margin-left: 42px;
+}
+body main .contacto div .datos-contacto .contacto-ubicacion {
+  display: flex;
+}
+body main .contacto div .datos-contacto .contacto-ubicacion img {
+  width: 15px;
+  height: 15px;
+  margin: 5px 0px;
+}
+body main .contacto div .datos-contacto .contacto-ubicacion p {
+  color: white;
+  text-align: left;
+  margin-left: 14px;
+  font-size: 18px;
+}
+body main .contacto div .datos-contacto .contacto-email {
+  display: flex;
+}
+body main .contacto div .datos-contacto .contacto-email img {
+  width: 15px;
+  height: 15px;
+  margin: 5px 0px;
+}
+body main .contacto div .datos-contacto .contacto-email p {
+  color: white;
+  text-align: left;
+  margin-left: 14px;
+  font-size: 18px;
+}
+body main .contacto div .caja-mensaje {
+  max-width: 700px;
+  margin-left: 40px;
+  margin-right: 40px;
+  justify-content: center;
+}
+body main .contacto div .caja-mensaje .caja-mensaje-texto {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 10px;
+}
+body main .contacto div .caja-mensaje .boton-enviar {
+  text-align: right;
+}
+body main .contacto div .caja-mensaje .boton-enviar button {
+  margin-top: 10px;
+  color: white;
+  background-color: #fe3cc1;
+  padding: 4px 16px;
+  border: none;
+}
+body main .contacto div .caja-mensaje .boton-enviar button:active {
+  background-color: #f187cf;
+  color: black;
+}
+body main .imagen-footer {
+  width: 100%;
+}
+body main .imagen-footer img {
+  width: 100%;
+}
+body footer {
+  /*Links*/
+  /*Firma*/
+}
+body footer .logos-link {
+  padding: 60px;
+  display: flex;
+  gap: 14px;
+  opacity: 0.7;
+  justify-content: center;
+  align-items: center;
+  margin-left: 13px;
+}
+body footer .logos-link a {
+  align-items: center;
+}
+body footer .logos-link a .logo-ig {
+  width: 20px;
+  height: 20px;
+}
+body footer .logos-link a .logo-yt {
+  margin-top: 1px;
+  width: 25px;
+}
+body footer .logos-link a .logo-tiktok {
+  width: 18px;
+}
+body footer .logos-link a .logo-sound {
+  height: 42px;
+  width: 42px;
+  margin-left: -9px;
+}
+body footer .logos-link a .logo-band {
+  height: 42px;
+  width: 42px;
+  margin-left: -8px;
+}
+body footer .firma {
+  text-align: center;
+  padding-bottom: 30px;
+}
+body footer .firma a {
+  text-decoration: none;
+  color: black;
+}
+body footer .firma a .firma-nombre {
+  font-weight: 700;
+}
+body footer .firma a .firma-nombre:hover {
+  color: #fe3cc1;
+}
+
+/*Media query tablet*/
+@media screen and (min-width: 720px) {
+  body main {
+    justify-content: center;
+  }
+  body main .banda {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  body main .banda .descripcion-banda {
+    max-width: 720px;
+  }
+  body main .band-mates {
+    display: flex;
+    width: 700px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  body main .contacto .caja-contacto {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+  }
+}
+/*Media query desktop*/
+@media screen and (min-width: 1024px) {
+  body main .banda .descripcion-banda {
+    max-width: 800px;
+  }
+  body main .band-mates {
+    width: 800px;
+  }
+  body main .tour .bloque-tour {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 70px;
+    align-items: center;
+    margin-top: 40px;
+  }
+  body main .tour .bloque-tour .second-card {
+    margin-top: 0;
+  }
+  body main .contacto .caja-contacto {
+    margin-top: 40px;
+    gap: 170px;
+    padding-bottom: 30px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

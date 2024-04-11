@@ -1,0 +1,288 @@
+// landing page - band template
+
+body{
+    background-color: whitesmoke;
+    /*Navbar*/
+    header{
+        .navbar-edit{
+            margin: 0;
+            padding: 0;
+            div{
+                background-color: black;
+                margin: 0;
+                padding: 10px;
+                a{
+                    color: white;
+                    font-family: sans-serif;
+                    margin-left: 15px;
+                    font-size: 15px;
+                }
+                a:active{
+                    color: #fe3cc1;
+                }
+                a:focus{
+                    color: #fe3cc1;
+                }
+                a:hover{
+                    color: #fe3cc1;
+                }
+                button{
+                    color: white;
+                    background-color: gray;
+                }
+                button:focus{
+                    border: none;
+                    box-shadow: none;
+                    background-color: #fe3cc1;
+                }
+                button:active{
+                    border: none;
+                    box-shadow: none;
+                }
+            }
+        }
+    }
+    main{
+        background-color: whitesmoke;
+        /*Carousel*/
+        .carousel-edit{
+            div{
+                img{
+                    width: 100%;
+                    height: fit-content;
+                }
+            }
+        }
+        /*Band*/
+        .banda{
+            text-align: center;
+            padding-top: 60px;
+            .titulo-banda{
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-size: 30px;
+                margin-bottom: 0;
+            }
+            .subtitulo-banda{
+                font-size: 14px;
+                font-style: italic;
+                opacity: 0.6;
+                font-family: sans-serif;
+                margin-top: 10px;
+                margin-bottom: 22px;
+            }
+            .descripcion-banda{
+                text-align: justify;
+                margin: 0 20px;
+                font-size: 15px;
+                font-family: sans-serif;
+            }
+        }
+        /*Band crew*/
+        .band-mates{
+            display: grid;
+            grid-template-rows: auto;
+            margin-top: 70px;
+            gap: 40px;
+            margin-bottom: 70px;
+            .band-mate-card{
+                .band-mate-card-name{
+                    p{
+                        font-size: 18px;
+                    }
+                }
+                .band-mate-card-img{
+                    img{
+                        width: 240px;
+                        height: 240px;
+                    }
+                }
+            }
+        }
+        /*News*/
+        .band-novedades{
+            background-color: black;
+            padding-top: 62px;
+            padding-bottom: 66px;
+            width: 100%;
+            .titulo-novedades{
+                p{
+                    color: white;
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    font-size: 30px;
+                    margin-bottom: 20px;
+                }
+            }
+            .subtitulo-novedades{
+                .titulo-noticia{
+                    color: white;
+                    font-size: 22px;
+                    margin-bottom: 8px;
+                }
+                .contenido-noticia{
+                    color: white;
+                }
+            }
+        }
+        /*Tour*/
+        .tour{
+            padding-bottom: 70px;
+            .texto-tour{
+                .titulo-tour{
+                    padding-top: 62px;
+                    font-size: 30px;
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    margin-bottom: 0;
+                }
+                .subtitulo-tour{
+                    font-style: 15px;
+                    padding-top: 0;
+                }
+            }
+            div{
+                .card-text{
+                    margin: 0;
+                }
+                img{
+                    width: auto;
+                }
+            }
+            .second-card{
+                margin-top: 40px;
+            }
+        }
+        /*Contacto*/
+        .contacto{
+            background-color: black;
+            padding-top: 60px;
+            padding-bottom: 60px;
+            width: 100%;
+            display: grid;
+            grid-template-columns: auto;
+            justify-content: center;
+            .titulo-contacto{
+                font-size: 30px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                color:white;
+            }
+            div{
+                .datos-contacto{
+                    margin-left: 42px;
+                    .contacto-ubicacion{
+                        display: flex;
+                        img{
+                            width: 15px;
+                            height: 15px;
+                            margin: 5px 0px;
+                        }
+                        p{
+                            color: white;
+                            text-align: left;
+                            margin-left: 14px;
+                            font-size: 18px;
+                        }
+                    }
+                    .contacto-email{
+                        display: flex;
+                        img{
+                            width: 15px;
+                            height: 15px;
+                            margin: 5px 0px;
+                        }
+                        p{
+                            color: white;
+                            text-align: left;
+                            margin-left: 14px;
+                            font-size: 18px;
+                        }
+                    }
+                }
+                .caja-mensaje{
+                    max-width: 700px;
+                    margin-left: 40px;
+                    margin-right: 40px;
+                    justify-content: center;
+                    .caja-mensaje-texto{
+                        display: grid;
+                        grid-template-columns: auto;
+                        gap: 10px;
+                    }
+                    .boton-enviar{
+                        text-align: right;
+                        button{
+                            margin-top: 10px;
+                            color: white;
+                            background-color: #fe3cc1;
+                            padding: 4px 16px;
+                            border: none;
+                        }
+                        button:active{
+                            background-color: #f187cf;
+                            color: black;
+                        }
+                    }
+                }
+            }
+
+        }
+        /*Imagen footer*/
+        .imagen-footer{
+            width: 100%;
+            img{
+                width: 100%;
+            }
+        }
+    }
+    footer{
+        /*Links*/
+        .logos-link{
+            padding: 60px;
+            display: flex;
+            gap: 14px;
+            opacity: 0.7;
+            justify-content: center;
+            align-items: center;
+            margin-left: 13px;
+            a{
+                align-items: center;
+                .logo-ig{
+                    width: 20px;
+                    height: 20px;
+                }
+                .logo-yt{
+                    margin-top: 1px;
+                    width: 25px;
+                }
+                .logo-tiktok{
+                    width: 18px;
+                }
+                .logo-sound{
+                    height: 42px;
+                    width: 42px;
+                    margin-left: -9px;
+                }
+                .logo-band{
+                    height: 42px;
+                    width: 42px;
+                    margin-left: -8px;
+                }
+            }
+        }
+        /*Firma*/
+        .firma{
+            text-align: center;
+            padding-bottom: 30px;
+            a{
+                text-decoration: none;
+                color: black;
+                .firma-nombre{
+                    font-weight: 700;
+                }
+                .firma-nombre:hover{
+                    color: #fe3cc1;
+                }
+            }
+        }
+    }
+}
+
+@import "home-mq";
